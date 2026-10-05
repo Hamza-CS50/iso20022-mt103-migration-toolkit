@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS335470035</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS335470035</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS335470035</TxId>
+        <UETR>e30be04f-9816-4b4a-9a14-02c62d0be896</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SPRI</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="USD">81958.80</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-20</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">75525.03</InstdAmt>
+      <XchgRate>0.9215</XchgRate>
+      <ChrgBr>DEBT</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">15.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>LHRNPKLAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>SHNGCNSHXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>PAKISTAN PACKAGING CO</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>17</BldgNb>
+          <TwnNm>KARACHI</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK94SSHS4861834570013232</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>SHNGCNSHXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SHENZHEN COMPONENTS CO LTD</Nm>
+        <PstlAdr>
+          <StrtNm>NANSHAN ROAD</StrtNm>
+          <BldgNb>214</BldgNb>
+          <PstCd>465433</PstCd>
+          <TwnNm>SHANGHAI</TwnNm>
+          <Ctry>CN</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>606869454710</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SURGICAL INSTRUMENTS CONTRACT 422/2026</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

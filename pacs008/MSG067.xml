@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS175267972</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS175267972</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS175267972</TxId>
+        <UETR>73b4ae7d-fcb9-47ed-b306-7945cb87198b</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">1926.27</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-28</IntrBkSttlmDt>
+      <ChrgBr>DEBT</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>ADEEL SHAHZAD</Nm>
+        <PstlAdr>
+          <TwnNm>SHARJAH</TwnNm>
+          <Ctry>AE</Ctry>
+          <AdrLine>OFFICE 178 AL WASL TOWER</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE664969352315745481121</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBXXKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SANA MALIK</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>213</BldgNb>
+          <PstCd>43129</PstCd>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK20DRGS6956759425358069</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>MEDICAL EXPENSES</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

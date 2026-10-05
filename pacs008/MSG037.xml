@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS311987331</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS311987331</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS311987331</TxId>
+        <UETR>34e17b84-8bb5-4d9b-9ad9-92f7718b3fd9</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">182733.11</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-15</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">11.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>LHRNPKLAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>SGCMSGSGXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <IntrmyAgt1>
+        <FinInstnId>
+          <BICFI>CRSPGB2LXXX</BICFI>
+        </FinInstnId>
+      </IntrmyAgt1>
+      <Dbtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <TwnNm>SIALKOT</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 186 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK62NYSB3472319312033097</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>SGCMSGSGXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SINGAPORE COMMODITIES PTE LTD</Nm>
+        <PstlAdr>
+          <StrtNm>ROBINSON ROAD</StrtNm>
+          <BldgNb>93</BldgNb>
+          <PstCd>75779</PstCd>
+          <TwnNm>SINGAPORE</TwnNm>
+          <Ctry>SG</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>3037114893</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR COTTON YARN</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-3073</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

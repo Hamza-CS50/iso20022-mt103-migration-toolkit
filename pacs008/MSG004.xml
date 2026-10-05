@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS156786733</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS156786733</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS156786733</TxId>
+        <UETR>b513e7a3-0e2f-424d-9194-0f671e1289c7</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">3547.89</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-02</IntrBkSttlmDt>
+      <ChrgBr>DEBT</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">23.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>KRDBPKKAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <IntrmyAgt1>
+        <FinInstnId>
+          <BICFI>TRNSDEFFXXX</BICFI>
+        </FinInstnId>
+      </IntrmyAgt1>
+      <Dbtr>
+        <Nm>IQBAL HUSSAIN</Nm>
+        <PstlAdr>
+          <StrtNm>MAIN STREET</StrtNm>
+          <BldgNb>129</BldgNb>
+          <PstCd>46030</PstCd>
+          <TwnNm>HOUSTON</TwnNm>
+          <CtrySubDvsn>TX</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>114029046865</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>HINA BUTT</Nm>
+        <PstlAdr>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 88 GULSHAN-E-IQBAL BLOCK 6</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK28PVXF5263831601654751</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>SAVINGS</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

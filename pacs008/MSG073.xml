@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS171315863</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS171315863</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS171315863</TxId>
+        <UETR>fc391746-c54c-4554-8883-68aa265d9399</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="SAR">3059.19</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-23</IntrBkSttlmDt>
+      <ChrgBr>DEBT</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="SAR">13.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>MLTNPKKAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>AHMED RAZA</Nm>
+        <PstlAdr>
+          <TwnNm>RIYADH</TwnNm>
+          <Ctry>SA</Ctry>
+          <AdrLine>BUILDING 199 OLAYA STREET</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>SA0213692828447787831676</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>BILAL AHMED</Nm>
+        <PstlAdr>
+          <PstCd>73970</PstCd>
+          <TwnNm>FAISALABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 38 GULSHAN-E-IQBAL BLOCK 11</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK04NRJE6551092590730376</IBAN>
+        </Id>
+      </CdtrAcct>
+      <InstrForNxtAgt>
+        <InstrInf>/INS/KRDBPKKA</InstrInf>
+      </InstrForNxtAgt>
+      <InstrForNxtAgt>
+        <InstrInf>/ACC/CREDIT BENEFICIARY ACCOUNT</InstrInf>
+      </InstrForNxtAgt>
+      <RmtInf>
+        <Ustrd>SCHOOL FEES</Ustrd>
+        <Strd>
+          <CdtrRefInf>
+            <Ref>151978</Ref>
+          </CdtrRefInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

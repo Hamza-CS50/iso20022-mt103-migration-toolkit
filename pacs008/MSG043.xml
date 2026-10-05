@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS376492778</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS376492778</InstrId>
+        <EndToEndId>ORD2633425</EndToEndId>
+        <TxId>PKS376492778</TxId>
+        <UETR>38ad4350-c91a-4504-9bfd-3f384253dc0e</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SSTD</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="EUR">244793.88</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-18</IntrBkSttlmDt>
+      <InstdAmt Ccy="USD">265601.36</InstdAmt>
+      <XchgRate>1.0850</XchgRate>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>MARGALLA SOFTWARE HOUSE</Nm>
+        <PstlAdr>
+          <PstCd>42660</PstCd>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 161 STREET 8 DHA PHASE 8</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK81ZPBL0365033505639777</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>BERLIN INSTRUMENTE AG</Nm>
+        <PstlAdr>
+          <StrtNm>BAHNHOFSTRASSE</StrtNm>
+          <BldgNb>13</BldgNb>
+          <PstCd>32351</PstCd>
+          <TwnNm>FRANKFURT</TwnNm>
+          <Ctry>DE</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>DE57009097233938568824</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR COTTON YARN</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-3223</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS287453486</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS287453486</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS287453486</TxId>
+        <UETR>d79fe917-cd14-4f5c-87dd-d7609340dee8</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">208331.21</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-19</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">191977.21</InstdAmt>
+      <XchgRate>0.9215</XchgRate>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>TEXAS MACHINERY INC</Nm>
+        <PstlAdr>
+          <StrtNm>BROADWAY</StrtNm>
+          <BldgNb>5</BldgNb>
+          <PstCd>39105</PstCd>
+          <TwnNm>HOUSTON</TwnNm>
+          <CtrySubDvsn>TX</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>495973604985</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>LAHORE AGRO TRADERS</Nm>
+        <PstlAdr>
+          <PstCd>43209</PstCd>
+          <TwnNm>FAISALABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 199 GULSHAN-E-IQBAL BLOCK 11</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK43PMXA4781454606904370</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES CONTRACT 395/2026</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

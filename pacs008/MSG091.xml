@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS336731714</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS336731714</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS336731714</TxId>
+        <UETR>cc1beefe-f206-4dc5-ac71-c09c9a8baeb5</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">119527.26</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-28</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">21.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>PSHRPKKAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>KARACHI TEXTILE EXPORTS LTD</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>190</BldgNb>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK36GMFC2539097530411689</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>DUBAI TRADING LLC</Nm>
+        <PstlAdr>
+          <StrtNm>SHEIKH ZAYED ROAD</StrtNm>
+          <BldgNb>230</BldgNb>
+          <AdrLine>AJMAN</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>AE788005969643673699599</IBAN>
+        </Id>
+      </CdtrAcct>
+      <InstrForNxtAgt>
+        <InstrInf>/INS/EMRTAEAA</InstrInf>
+      </InstrForNxtAgt>
+      <InstrForNxtAgt>
+        <InstrInf>/ACC/CREDIT BENEFICIARY ACCOUNT</InstrInf>
+      </InstrForNxtAgt>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-6365</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS214675568</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS214675568</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS214675568</TxId>
+        <UETR>f7610f5c-2d0c-49fb-9a9c-3307319b4899</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="XYZ">25525.87</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-05</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>DUBAI TRADING LLC</Nm>
+        <PstlAdr>
+          <StrtNm>SHEIKH ZAYED ROAD</StrtNm>
+          <BldgNb>147</BldgNb>
+          <TwnNm>DUBAI</TwnNm>
+          <Ctry>AE</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE929712272876490599790</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>KOHSAR ELECTRONICS TRADING</Nm>
+        <PstlAdr>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 51 GULSHAN-E-IQBAL BLOCK 2</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK52SAXN4731593393700536</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR COTTON YARN</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-9773</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

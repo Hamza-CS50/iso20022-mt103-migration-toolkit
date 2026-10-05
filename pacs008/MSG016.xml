@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS168543291</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS168543291</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS168543291</TxId>
+        <UETR>9f35ea09-acc6-488f-b92b-eb2c2373efeb</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">3072.61</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-24</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">12.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>HSTNUS44XXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>JOHN SMITH</Nm>
+        <PstlAdr>
+          <StrtNm>MAIN STREET</StrtNm>
+          <BldgNb>197</BldgNb>
+          <PstCd>65962</PstCd>
+          <TwnNm>CHICAGO</TwnNm>
+          <CtrySubDvsn>IL</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>576256197363</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>IMRAN SHEIKH</Nm>
+        <PstlAdr>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 158 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK38HXTG1965698547651296</IBAN>
+        </Id>
+      </CdtrAcct>
+      <InstrForNxtAgt>
+        <InstrInf>/INS/LHRNPKLA</InstrInf>
+      </InstrForNxtAgt>
+      <InstrForNxtAgt>
+        <InstrInf>/ACC/CREDIT BENEFICIARY ACCOUNT</InstrInf>
+      </InstrForNxtAgt>
+      <RmtInf>
+        <Ustrd>GIFT</Ustrd>
+        <Strd>
+          <CdtrRefInf>
+            <Ref>586786</Ref>
+          </CdtrRefInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS247053293</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS247053293</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS247053293</TxId>
+        <UETR>76b1f3ec-7cb0-4607-98e0-1781a8160140</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="EUR">63334.73</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-05</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>BERLIN INSTRUMENTE AG</Nm>
+        <PstlAdr>
+          <StrtNm>HAUPTSTRASSE</StrtNm>
+          <BldgNb>210</BldgNb>
+          <PstCd>64628</PstCd>
+          <TwnNm>HAMBURG</TwnNm>
+          <Ctry>DE</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>DE17565000816694936265</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>PAKISTAN PACKAGING CO</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>204</BldgNb>
+          <PstCd>62632</PstCd>
+          <TwnNm>SIALKOT</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK34GDJY7531416679548452</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SPORTS GOODS</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-7811</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

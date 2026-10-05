@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS347653558</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS347653558</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS347653558</TxId>
+        <UETR>67794d2f-ff70-4e4a-88a2-196e871f9f46</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">248119.00</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-21</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>SGCMSGSGXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>66</BldgNb>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK70SCFZ9181666877069345</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>SNGPSGSGXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SINGAPORE COMMODITIES PTE LTD</Nm>
+        <PstlAdr>
+          <StrtNm>ROBINSON ROAD</StrtNm>
+          <BldgNb>184</BldgNb>
+          <PstCd>83850</PstCd>
+          <TwnNm>SINGAPORE</TwnNm>
+          <Ctry>SG</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>0889693322</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/ORDERRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SPORTS GOODS CONTRACT 768/2026</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS449286965</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INGA</SttlmMtd>
+        <InstgRmbrsmntAgt>
+          <FinInstnId>
+            <BICFI>CRSPGB2LXXX</BICFI>
+          </FinInstnId>
+        </InstgRmbrsmntAgt>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS449286965</InstrId>
+        <EndToEndId>ORD3796298</EndToEndId>
+        <TxId>FXS449286965</TxId>
+        <UETR>a460dc15-9fc2-4d83-a5d4-35dae9c90ef5</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">9227.23</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-21</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>TEXAS MACHINERY INC</Nm>
+        <PstlAdr>
+          <StrtNm>MAIN STREET</StrtNm>
+          <BldgNb>210</BldgNb>
+          <PstCd>39608</PstCd>
+          <TwnNm>HOUSTON</TwnNm>
+          <CtrySubDvsn>TX</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>9175300026</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <StrtNm>SHEIKH ZAYED ROAD</StrtNm>
+          <BldgNb>227</BldgNb>
+          <TwnNm>ABU DHABI</TwnNm>
+          <Ctry>AE</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK63SBKN4919388495178452</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR PACKAGING MATERIAL</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-7020</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

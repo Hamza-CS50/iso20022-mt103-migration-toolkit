@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS179222536</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS179222536</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS179222536</TxId>
+        <UETR>a4e5d805-d9e1-4147-bd4e-9cf21ba62732</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">3813.42</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-21</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>KASHIF JAVED</Nm>
+        <PstlAdr>
+          <TwnNm>DUBAI</TwnNm>
+          <Ctry>AE</Ctry>
+          <AdrLine>VILLA 18 AL BARSHA</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE445857007626234633914</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>ZAINAB HUSSAIN</Nm>
+        <PstlAdr>
+          <PstCd>42102</PstCd>
+          <TwnNm>FAISALABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 136 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK45WUYY5700223523159595</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/BENEFRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>FAMILY SUPPORT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

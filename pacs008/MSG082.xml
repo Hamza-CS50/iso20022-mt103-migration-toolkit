@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS311702976</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS311702976</InstrId>
+        <EndToEndId>ORD7562073</EndToEndId>
+        <TxId>PKS311702976</TxId>
+        <UETR>82553f24-361a-4e5d-ba38-aa1bf99e4a35</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="EUR">232786.35</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-07</IntrBkSttlmDt>
+      <InstdAmt Ccy="USD">252573.19</InstdAmt>
+      <XchgRate>1.0850</XchgRate>
+      <ChrgBr>DEBT</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <IntrmyAgt1>
+        <FinInstnId>
+          <BICFI>TRNSDEFFXXX</BICFI>
+        </FinInstnId>
+      </IntrmyAgt1>
+      <Dbtr>
+        <Nm>INDUS SURGICAL WORKS</Nm>
+        <PstlAdr>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 66 BLOCK 2 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK90CAPY6033871260515928</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>HAMBURG MASCHINEN GMBH</Nm>
+        <PstlAdr>
+          <StrtNm>BAHNHOFSTRASSE</StrtNm>
+          <BldgNb>6</BldgNb>
+          <PstCd>53579</PstCd>
+          <TwnNm>FRANKFURT</TwnNm>
+          <Ctry>DE</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>DE57534019935073839004</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/ORDERRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-2009</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

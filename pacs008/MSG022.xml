@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS179246257</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS179246257</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS179246257</TxId>
+        <UETR>20e239a7-ae29-40d7-b8e1-31ab1a562118</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="SAR">964.02</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-05</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>NADEEM AKHTAR</Nm>
+        <PstlAdr>
+          <TwnNm>DAMMAM</TwnNm>
+          <Ctry>SA</Ctry>
+          <AdrLine>BUILDING 239 OLAYA STREET</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>SA7715699505941117297966</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>OMAR FAROOQ</Nm>
+        <PstlAdr>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 11 BLOCK 9 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK69USXC9626810109570033</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>HOUSE RENT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

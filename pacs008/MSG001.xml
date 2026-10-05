@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS210894346</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS210894346</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS210894346</TxId>
+        <UETR>2b609916-432d-4f32-9424-fb9dd61f026a</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="JPY">259137.50</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-22</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="JPY">668</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>SHNGCNSHXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>SHNGCNSHXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>SHANGHAI CHEMICALS LTD</Nm>
+        <PstlAdr>
+          <StrtNm>NANSHAN ROAD</StrtNm>
+          <BldgNb>52</BldgNb>
+          <TwnNm>SHENZHEN</TwnNm>
+          <Ctry>CN</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>6881221867</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>SHNGCNSHXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>PAKISTAN PACKAGING CO</Nm>
+        <PstlAdr>
+          <PstCd>63052</PstCd>
+          <TwnNm>SIALKOT</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 226 GULSHAN-E-IQBAL BLOCK 2</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK60GFLK2521705309503730</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-9113</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

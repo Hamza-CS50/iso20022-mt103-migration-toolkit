@@ -1,0 +1,509 @@
+msg_id,rule_id,category,severity,path,message
+MSG001,BR_AMT_DECIMALS,BUSINESS,ERROR,/*/*/*[2]/*[2],JPY allows 0 decimals but amount is 259137.50
+MSG001,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG001,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG001,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; SHNGCNSHXXX was assumed
+MSG001,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG001,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG001,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG001,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG002,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG002,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG002,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG002,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG002,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG003,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG003,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG003,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG003,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG003,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG003,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG004,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG004,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; KRDBPKKAXXX was assumed
+MSG004,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG004,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG005,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG005,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG005,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG005,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG006,BR_BIC_CTRY,BUSINESS,ERROR,/*/*/*[2]/*[11]/*/*,BIC 'KRDBXXKAXXX' has invalid country code 'XX'
+MSG006,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG006,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; KRDBPKKAXXX was assumed
+MSG006,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG006,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG006,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG007,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG007,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG007,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG007,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG007,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG007,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG007,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG008,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG008,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG008,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; KRDBPKKAXXX was assumed
+MSG008,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG008,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG008,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG008,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG009,BR_FX_RATE_MISSING,BUSINESS,WARNING,:33B:/:36:,33B currency differs from 32A currency but :36: exchange rate is absent
+MSG009,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG009,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG009,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG009,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG009,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG010,BR_ADDR_TWN_CTRY,ADDRESS,ERROR,CdtTrfTxInf/Cdtr/PstlAdr,Cdtr address lacks TwnNm and Ctry; unstructured addresses are rejected by CBPR+ from 14 Nov 2026
+MSG010,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG010,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG010,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG010,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG011,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG011,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG011,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG011,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG011,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG011,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG012,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG012,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG012,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG012,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG013,SX_DATE_INVALID,SYNTAX,ERROR,:32A:,Value date 261331 is not a real calendar date
+MSG014,BR_NON_IBAN_ACCT,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,"Creditor account in Pakistan is a local account number, not an IBAN"
+MSG014,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG014,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG014,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG014,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG014,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG014,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG015,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[12]/*/*,IBAN 'AE693430805668249936577' fails the mod-97 check digit test
+MSG015,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG015,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG015,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG015,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG016,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG016,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; HSTNUS44XXX was assumed
+MSG016,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG016,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG016,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG016,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG017,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG017,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG017,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG017,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG018,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG018,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG018,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG018,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG019,BR_IBAN_ADDR_MISMATCH,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,Cdtr IBAN country PK differs from address country AE
+MSG019,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG019,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG019,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG019,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG020,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG020,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG020,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG020,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG020,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG021,BR_CHRG_RULE,BUSINESS,ERROR,:71A:/:71F:,"With 71A=OUR, field 71F (sender's charges) is not allowed"
+MSG021,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG021,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; HSTNUS44XXX was assumed
+MSG021,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG021,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG021,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG022,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG022,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG022,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG023,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG023,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG023,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG023,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG023,DL_NAME_TRUNC_SUSPECT,DATA_LOSS,WARNING,CdtTrfTxInf/Cdtr/Nm,Name fills the whole 35-character MT line; the original legal name may already have been cut off upstream
+MSG023,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG024,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG024,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG024,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG024,DL_RMT_TRUNC_SUSPECT,DATA_LOSS,WARNING,:70:,All four 35-character lines are used; sender text was probably cut off at the MT limit
+MSG025,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG025,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; ISBTPKKAXXX was assumed
+MSG025,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG025,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG025,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG026,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG026,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG026,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG026,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG026,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG027,BR_ADDR_TWN_CTRY,ADDRESS,ERROR,CdtTrfTxInf/Dbtr/PstlAdr,Dbtr address lacks TwnNm and Ctry; unstructured addresses are rejected by CBPR+ from 14 Nov 2026
+MSG027,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG027,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; HSTNUS44XXX was assumed
+MSG027,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG027,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG027,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG028,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG028,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG028,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG028,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG028,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG028,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG028,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG029,BR_NON_IBAN_ACCT,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,"Creditor account in Pakistan is a local account number, not an IBAN"
+MSG029,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG029,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG029,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG029,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG029,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG029,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG029,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG030,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG030,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; NYCBUS33XXX was assumed
+MSG030,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG030,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG030,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG031,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG031,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG031,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG031,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG031,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG032,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG032,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG032,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG032,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG032,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG033,BR_CCY_UNKNOWN,BUSINESS,ERROR,/*/*/*[2]/*[3],Currency 'XYZ' is not a recognised ISO 4217 code
+MSG033,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG033,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG033,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG033,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG034,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG034,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG034,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG034,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG034,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG034,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG035,BR_VALUE_DATE_WEEKEND,BUSINESS,WARNING,/*/*/*[2]/*[3],2026-10-11 is a weekend day
+MSG035,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG035,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; ISBTPKKAXXX was assumed
+MSG035,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG035,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG035,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG035,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG036,XSD_001,SCHEMA,ERROR,/*/*/*[2]/*[11]/*/*,"Element 'BICFI': [facet 'pattern'] The value 'KRDBPKKAXX' is not accepted by the pattern '[A-Z0-9]{4,4}[A-Z]{2,2}[A-Z0-9]{2,2}([A-Z0-9]{3,3}){0,1}'."
+MSG036,BR_BIC_FMT,BUSINESS,ERROR,/*/*/*[2]/*[11]/*/*,'KRDBPKKAXX' is not a valid BIC
+MSG036,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG036,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG036,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG037,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG037,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG037,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; LHRNPKLAXXX was assumed
+MSG037,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG037,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG037,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG037,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG038,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG038,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; LHRNPKLAXXX was assumed
+MSG038,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG038,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG038,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG038,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG039,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG039,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG039,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG039,DL_NAME_TRUNC_SUSPECT,DATA_LOSS,WARNING,CdtTrfTxInf/Cdtr/Nm,Name fills the whole 35-character MT line; the original legal name may already have been cut off upstream
+MSG039,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG039,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG040,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[14]/*/*,IBAN 'PK93ZJMJ1136330723450865' fails the mod-97 check digit test
+MSG040,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG040,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG040,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG040,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG040,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG040,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG041,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG041,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG041,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; ISBTPKKAXXX was assumed
+MSG041,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG041,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG041,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG041,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG042,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG042,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG042,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG042,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG042,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG043,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG043,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG043,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG043,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG044,BR_VALUE_DATE_WEEKEND,BUSINESS,WARNING,/*/*/*[2]/*[4],2026-10-04 is a weekend day
+MSG044,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG044,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG044,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG044,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG044,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG045,BR_IBAN_LEN,BUSINESS,ERROR,/*/*/*[2]/*[15]/*/*,IBAN 'PK04XXBA46159012476159791' has 25 chars; PK IBANs must have a fixed registry length
+MSG045,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[15]/*/*,IBAN 'PK04XXBA46159012476159791' fails the mod-97 check digit test
+MSG045,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG045,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG046,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG046,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG046,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG046,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG047,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG047,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG047,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG047,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG047,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG047,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG048,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG048,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG048,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG049,BR_CHRG_RULE,BUSINESS,ERROR,:71A:/:71F:,"With 71A=OUR, field 71F (sender's charges) is not allowed"
+MSG049,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG049,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; LHRNPKLAXXX was assumed
+MSG049,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG049,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG049,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG050,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG050,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; JDDHSAJEXXX was assumed
+MSG050,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG050,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG051,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG051,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG051,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG051,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG052,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG052,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG052,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG053,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[13]/*/*,IBAN 'PK18JCUH9954067118419483' fails the mod-97 check digit test
+MSG053,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG053,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG053,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG053,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG053,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG053,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG053,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG054,SX_MISSING_FIELD,SYNTAX,ERROR,:59:,Mandatory field :59: is missing
+MSG055,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG055,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG055,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG055,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG056,BR_CCY_UNKNOWN,BUSINESS,ERROR,/*/*/*[2]/*[2],Currency 'XYZ' is not a recognised ISO 4217 code
+MSG056,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG056,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG056,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG056,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG056,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG056,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG057,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG057,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG057,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG057,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG057,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG057,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG058,SX_AMOUNT_FORMAT,SYNTAX,ERROR,:32A:,Field 32A '261005USD3911' malformed (YYMMDD + CCY + amount with decimal comma)
+MSG059,BR_NON_IBAN_ACCT,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,"Creditor account in Pakistan is a local account number, not an IBAN"
+MSG059,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG059,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG059,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG059,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG059,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG059,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG060,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG060,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; SGCMSGSGXXX was assumed
+MSG060,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG060,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG060,DL_RMT_TRUNC_SUSPECT,DATA_LOSS,WARNING,:70:,All four 35-character lines are used; sender text was probably cut off at the MT limit
+MSG061,BR_FX_RATE_MISSING,BUSINESS,WARNING,:33B:/:36:,33B currency differs from 32A currency but :36: exchange rate is absent
+MSG061,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG061,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG061,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG061,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG062,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG062,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG062,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG062,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG063,SX_AMOUNT_FORMAT,SYNTAX,ERROR,:32A:,Field 32A '261022USD72478' malformed (YYMMDD + CCY + amount with decimal comma)
+MSG064,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG064,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG064,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG064,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG064,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG065,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG065,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG065,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG066,BR_NON_IBAN_ACCT,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,"Creditor account in Pakistan is a local account number, not an IBAN"
+MSG066,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG066,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG066,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG066,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG067,BR_BIC_CTRY,BUSINESS,ERROR,/*/*/*[2]/*[10]/*/*,BIC 'KRDBXXKAXXX' has invalid country code 'XX'
+MSG067,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG067,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG067,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG068,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG068,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG068,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG068,INF_CTRY_FROM_TOWN,INFERENCE,WARNING,CdtTrfTxInf/Cdtr/PstlAdr/Ctry,Country PK was never stated; it was deduced from the town name 'ISLAMABAD' (may be wrong for namesake towns)
+MSG069,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG069,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG069,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG069,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG069,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG070,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG070,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG070,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG070,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG070,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG071,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG071,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG071,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG071,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG071,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG071,DL_RMT_TRUNC_SUSPECT,DATA_LOSS,WARNING,:70:,All four 35-character lines are used; sender text was probably cut off at the MT limit
+MSG072,INF_CTRY_FROM_TOWN,INFERENCE,WARNING,CdtTrfTxInf/Dbtr/PstlAdr/Ctry,Country PK was never stated; it was deduced from the town name 'LAHORE' (may be wrong for namesake towns)
+MSG072,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG072,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG072,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG073,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG073,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG073,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; MLTNPKKAXXX was assumed
+MSG073,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG073,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG073,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG073,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG074,BR_AMT_DECIMALS,BUSINESS,ERROR,/*/*/*[2]/*[3],JPY allows 0 decimals but amount is 649470.50
+MSG074,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG074,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG074,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG074,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG074,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG074,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG075,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG075,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG075,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG075,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG075,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG076,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG076,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; LHRNPKLAXXX was assumed
+MSG076,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG076,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG076,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG077,BR_ADDR_TWN_CTRY,ADDRESS,ERROR,CdtTrfTxInf/Dbtr/PstlAdr,Dbtr address lacks TwnNm and Ctry; unstructured addresses are rejected by CBPR+ from 14 Nov 2026
+MSG077,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG077,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG077,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG077,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG078,BR_BIC_CTRY,BUSINESS,ERROR,/*/*/*[2]/*[11]/*/*,BIC 'KRDBXXKAXXX' has invalid country code 'XX'
+MSG078,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG078,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; NYCBUS33XXX was assumed
+MSG078,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG078,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG079,SX_MISSING_FIELD,SYNTAX,ERROR,:59:,Mandatory field :59: is missing
+MSG080,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG080,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG080,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG080,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG080,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG080,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG081,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG081,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG081,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG081,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG082,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG082,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG082,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG082,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG083,SX_DATE_INVALID,SYNTAX,ERROR,:32A:,Value date 260231 is not a real calendar date
+MSG084,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG084,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG084,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG084,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG085,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG085,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG085,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG085,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG086,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG086,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71G: does not say which bank levied the charge; ISBTPKKAXXX was assumed
+MSG086,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG086,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG087,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG087,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG087,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; EMRTAEAAXXX was assumed
+MSG087,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG087,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG087,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG088,BR_ADDR_TWN_CTRY,ADDRESS,ERROR,CdtTrfTxInf/Dbtr/PstlAdr,Dbtr address lacks TwnNm and Ctry; unstructured addresses are rejected by CBPR+ from 14 Nov 2026
+MSG088,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG088,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG088,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG088,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG088,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/CdtrRefInf,Beneficiary reference recovered from /RFB/ code word into a structured element
+MSG089,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[8]/*/*,IBAN 'PK84ESLS4842535202779824' fails the mod-97 check digit test
+MSG089,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG089,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG089,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG089,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG089,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG090,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG090,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG090,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG090,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG090,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG091,BR_ADDR_TWN_CTRY,ADDRESS,ERROR,CdtTrfTxInf/Cdtr/PstlAdr,Cdtr address lacks TwnNm and Ctry; unstructured addresses are rejected by CBPR+ from 14 Nov 2026
+MSG091,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG091,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; PSHRPKKAXXX was assumed
+MSG091,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG091,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG091,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG091,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG092,BR_IBAN_LEN,BUSINESS,ERROR,/*/*/*[2]/*[12]/*/*,IBAN 'PK13KHNU34372677036840194' has 25 chars; PK IBANs must have a fixed registry length
+MSG092,BR_IBAN_CHK,BUSINESS,ERROR,/*/*/*[2]/*[12]/*/*,IBAN 'PK13KHNU34372677036840194' fails the mod-97 check digit test
+MSG092,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG092,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG092,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG092,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG092,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG093,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG093,INF_CHRG_AGENT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/ChrgsInf/Agt,:71F: does not say which bank levied the charge; LHRNPKLAXXX was assumed
+MSG093,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG093,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG093,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG093,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG094,BR_IBAN_ADDR_MISMATCH,BUSINESS,WARNING,CdtTrfTxInf/CdtrAcct,Cdtr IBAN country PK differs from address country AE
+MSG094,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG094,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG094,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG094,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG094,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG095,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG095,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG095,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG095,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG095,DL_NAME_TRUNC_SUSPECT,DATA_LOSS,WARNING,CdtTrfTxInf/Cdtr/Nm,Name fills the whole 35-character MT line; the original legal name may already have been cut off upstream
+MSG095,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG095,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG096,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG096,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG096,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG096,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG097,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG097,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG097,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG097,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG097,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG097,GAIN_STRUCT_RMT,ENRICHMENT,INFO,CdtTrfTxInf/RmtInf/Strd/RfrdDocInf,"Invoice number recovered from /INV/ code word into a structured, machine-readable element"
+MSG098,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG098,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG098,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG098,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG098,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG099,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG099,INF_UETR_GENERATED,INFERENCE,WARNING,CdtTrfTxInf/PmtId/UETR,"MT103 carries no UETR; a new one was minted, so the payment cannot be tracked end-to-end"
+MSG099,INF_CTRY_FROM_TOWN,INFERENCE,WARNING,CdtTrfTxInf/Dbtr/PstlAdr/Ctry,Country PK was never stated; it was deduced from the town name 'SIALKOT' (may be wrong for namesake towns)
+MSG099,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG099,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG100,BR_E2E_NOTPROVIDED,BUSINESS,INFO,CdtTrfTxInf/PmtId/EndToEndId,No /ROC/ originator reference in :70:
+MSG100,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Dbtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)
+MSG100,INF_DBTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/DbtrAgt,No :52a: ordering institution; the sending bank was assumed to be the debtor agent
+MSG100,INF_CDTRAGT_INFERRED,INFERENCE,INFO,CdtTrfTxInf/CdtrAgt,No :57a: account-with institution; the receiving bank was assumed to be the creditor agent
+MSG100,GAIN_STRUCT_ADDR,ENRICHMENT,INFO,CdtTrfTxInf/Cdtr/PstlAdr,Town and country extracted from free text into structured elements (CBPR+ hybrid-ready)

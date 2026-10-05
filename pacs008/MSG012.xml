@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS112971377</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS112971377</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS112971377</TxId>
+        <UETR>9d647850-2e4e-4b5e-abe4-ddc3ff92df53</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SPRI</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="GBP">5935.77</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-28</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>KASHIF JAVED</Nm>
+        <PstlAdr>
+          <StrtNm>HIGH STREET</StrtNm>
+          <BldgNb>60</BldgNb>
+          <PstCd>M1 4BT</PstCd>
+          <TwnNm>LONDON</TwnNm>
+          <Ctry>GB</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>GB76DTUN91086332656461</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FATIMA NOOR</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>193</BldgNb>
+          <PstCd>51615</PstCd>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK75SYNS7232382312086136</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>GIFT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

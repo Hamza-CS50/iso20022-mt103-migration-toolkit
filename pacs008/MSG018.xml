@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS455767868</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS455767868</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS455767868</TxId>
+        <UETR>1f049b33-79ea-4827-b09e-74e4f6e4bbc1</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">38523.37</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-23</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>INDUS SURGICAL WORKS</Nm>
+        <PstlAdr>
+          <TwnNm>FAISALABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 66 GULSHAN-E-IQBAL BLOCK 13</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK52FTUS2630921890605601</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>NYCBUS33XXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>TEXAS MACHINERY INC</Nm>
+        <PstlAdr>
+          <StrtNm>MAIN STREET</StrtNm>
+          <BldgNb>108</BldgNb>
+          <PstCd>22217</PstCd>
+          <TwnNm>HOUSTON</TwnNm>
+          <CtrySubDvsn>TX</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>275662988679</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-5517</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

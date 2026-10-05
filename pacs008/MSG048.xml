@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS466352653</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS466352653</InstrId>
+        <EndToEndId>ORD6561333</EndToEndId>
+        <TxId>PKS466352653</TxId>
+        <UETR>98a5f527-2c35-45fd-bbc1-35f8e40b2be7</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SPRI</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="USD">28474.53</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-20</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>HSTNUS44XXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>MARGALLA SOFTWARE HOUSE</Nm>
+        <PstlAdr>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 192 BLOCK 2 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK52ZAVC9839679504542041</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>NYCBUS33XXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>TEXAS MACHINERY INC</Nm>
+        <PstlAdr>
+          <StrtNm>BROADWAY</StrtNm>
+          <BldgNb>224</BldgNb>
+          <PstCd>55696</PstCd>
+          <TwnNm>NEW YORK</TwnNm>
+          <CtrySubDvsn>NY</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>016479213659</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SURGICAL INSTRUMENTS CONTRACT 369/2026</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

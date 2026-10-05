@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS360548321</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS360548321</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS360548321</TxId>
+        <UETR>b70804fc-871c-4c6e-83a9-5702ed29ed4a</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="EUR">175839.86</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-12</IntrBkSttlmDt>
+      <InstdAmt Ccy="USD">190786.25</InstdAmt>
+      <XchgRate>1.0850</XchgRate>
+      <ChrgBr>DEBT</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>BRLNDEBBXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>SIALKOT SPORTS GOODS LTD</Nm>
+        <PstlAdr>
+          <PstCd>45510</PstCd>
+          <TwnNm>SIALKOT</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 224 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK68AMMX7139477449631198</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>HAMBURG MASCHINEN GMBH</Nm>
+        <PstlAdr>
+          <StrtNm>HAUPTSTRASSE</StrtNm>
+          <BldgNb>8</BldgNb>
+          <PstCd>24114</PstCd>
+          <TwnNm>MUNICH</TwnNm>
+          <Ctry>DE</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>DE64007258729448027290</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SPORTS GOODS CONTRACT 401/2026</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS348848682</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS348848682</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS348848682</TxId>
+        <UETR>d39022ea-30f5-47ea-8ee5-ea71a8e607fb</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="EUR">233841.58</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-07</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="EUR">19.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>KRDBPKKAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>INDUS SURGICAL WORKS</Nm>
+        <PstlAdr>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 141 BLOCK 1 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK47YSWP8633340094757479</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>FRNKDEFFXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>BERLIN INSTRUMENTE AG</Nm>
+        <PstlAdr>
+          <StrtNm>HAUPTSTRASSE</StrtNm>
+          <BldgNb>121</BldgNb>
+          <PstCd>66476</PstCd>
+          <TwnNm>MUNICH</TwnNm>
+          <Ctry>DE</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>DE57371648164525953738</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR COTTON YARN</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-6093</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

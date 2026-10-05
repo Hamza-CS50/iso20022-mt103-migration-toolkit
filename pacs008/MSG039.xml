@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS264745691</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS264745691</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS264745691</TxId>
+        <UETR>d49aa333-7542-451a-b72d-270794b006ce</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SSTD</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="USD">195934.11</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-14</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">180553.28</InstdAmt>
+      <XchgRate>0.9215</XchgRate>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>DUBAI TRADING LLC</Nm>
+        <PstlAdr>
+          <StrtNm>SHEIKH ZAYED ROAD</StrtNm>
+          <BldgNb>186</BldgNb>
+          <TwnNm>ABU DHABI</TwnNm>
+          <Ctry>AE</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE824259450554994157026</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>KARACHI INTERNATIONAL TRADING COMPA</Nm>
+        <PstlAdr>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 116 BLOCK 3 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK67WSZV8382989356571742</IBAN>
+        </Id>
+      </CdtrAcct>
+      <InstrForNxtAgt>
+        <InstrInf>/INS/MLTNPKKA</InstrInf>
+      </InstrForNxtAgt>
+      <InstrForNxtAgt>
+        <InstrInf>/ACC/CREDIT BENEFICIARY ACCOUNT</InstrInf>
+      </InstrForNxtAgt>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SOFTWARE SERVICES</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-2774</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

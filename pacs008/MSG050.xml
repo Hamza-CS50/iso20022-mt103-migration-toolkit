@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS160471665</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS160471665</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS160471665</TxId>
+        <UETR>d5a65a33-6466-4514-b9aa-4ffd6b9942fb</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="SAR">4463.49</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-13</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="SAR">11.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>JDDHSAJEXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>SAJID HUSSAIN</Nm>
+        <PstlAdr>
+          <StrtNm>KING FAHD ROAD</StrtNm>
+          <BldgNb>106</BldgNb>
+          <TwnNm>JEDDAH</TwnNm>
+          <Ctry>SA</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>SA7520316401081424363641</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FATIMA NOOR</Nm>
+        <PstlAdr>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>FLAT 186 GULSHAN-E-IQBAL BLOCK 4</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK70ZHMR3386728222996260</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/BENEFRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>HOUSE RENT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

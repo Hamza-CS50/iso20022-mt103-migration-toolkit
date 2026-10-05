@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS192741871</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INGA</SttlmMtd>
+        <InstgRmbrsmntAgt>
+          <FinInstnId>
+            <BICFI>CRSPGB2LXXX</BICFI>
+          </FinInstnId>
+        </InstgRmbrsmntAgt>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS192741871</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS192741871</TxId>
+        <UETR>bc7b0210-1b88-43fc-8c73-f2e45d0b507d</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="GBP">3881.40</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-22</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>TARIQ MAHMOOD</Nm>
+        <PstlAdr>
+          <PstCd>M1 4BT</PstCd>
+          <TwnNm>LONDON</TwnNm>
+          <Ctry>GB</Ctry>
+          <AdrLine>FLAT 2 175 BAKER STREET</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>GB09TWAX65860172597058</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SANA MALIK</Nm>
+        <PstlAdr>
+          <PstCd>63977</PstCd>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 111 BLOCK 8 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK98DFPY2451219123291524</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>SCHOOL FEES</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS291578246</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS291578246</InstrId>
+        <EndToEndId>ORD8061652</EndToEndId>
+        <TxId>FXS291578246</TxId>
+        <UETR>44c68177-bee9-45f8-bcb9-0ba814068728</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">184183.65</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-19</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>DUBAI TRADING LLC</Nm>
+        <PstlAdr>
+          <TwnNm>SHARJAH</TwnNm>
+          <Ctry>AE</Ctry>
+          <AdrLine>VILLA 179 AL BARSHA</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE580179100637433975775</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>GLFBAEADXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <PstCd>40787</PstCd>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 52 STREET 4 DHA PHASE 5</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK96GSSK4952899840891460</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/BENEFRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR COTTON YARN</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-5645</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

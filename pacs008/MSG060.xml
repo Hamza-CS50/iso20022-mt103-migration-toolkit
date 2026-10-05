@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS218240675</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS218240675</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS218240675</TxId>
+        <UETR>6b88b32b-88bb-487e-94a9-1f2db0e03b24</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">195037.93</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-05</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">179727.45</InstdAmt>
+      <XchgRate>0.9215</XchgRate>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">13.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>SGCMSGSGXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>SGCMSGSGXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>SINGAPORE COMMODITIES PTE LTD</Nm>
+        <PstlAdr>
+          <StrtNm>ROBINSON ROAD</StrtNm>
+          <BldgNb>201</BldgNb>
+          <PstCd>93091</PstCd>
+          <TwnNm>SINGAPORE</TwnNm>
+          <Ctry>SG</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>655355399091</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>SGCMSGSGXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>KOHSAR ELECTRONICS TRADING</Nm>
+        <PstlAdr>
+          <PstCd>57400</PstCd>
+          <TwnNm>LAHORE</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 84 STREET 27 DHA PHASE 2</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK76VPWP9734484589050045</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/BENEFRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>SETTLEMENT OF PROFORMA INVOICES NO 8841 AND 8842 DATED 15 SEPTEMBER 26 FOR SUPPLY OF GOODS UNDER CONTRACT 77 AS PER AGREED DELIVERY SCHEDULE</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS213543539</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS213543539</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS213543539</TxId>
+        <UETR>92685471-55cb-4d66-9a01-ee08fd3b5624</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SSTD</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="USD">115283.39</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-28</IntrBkSttlmDt>
+      <ChrgBr>DEBT</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>MNCHGB2MXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>MANCHESTER FABRICS LTD</Nm>
+        <PstlAdr>
+          <StrtNm>HIGH STREET</StrtNm>
+          <BldgNb>27</BldgNb>
+          <PstCd>B1 1AA</PstCd>
+          <TwnNm>LONDON</TwnNm>
+          <Ctry>GB</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>GB10FMSE55299893220456</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>MNCHGB2MXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <TwnNm>FAISALABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 94 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK35GACJ5357830865988232</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SURGICAL INSTRUMENTS</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-9108</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

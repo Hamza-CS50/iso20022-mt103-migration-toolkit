@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS129282235</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS129282235</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS129282235</TxId>
+        <UETR>4fbec720-3344-43d8-bcd8-a64e9711906e</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="GBP">319.92</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-01</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>MARIA GARCIA</Nm>
+        <PstlAdr>
+          <PstCd>B1 1AA</PstCd>
+          <TwnNm>BIRMINGHAM</TwnNm>
+          <Ctry>GB</Ctry>
+          <AdrLine>FLAT 27 89 BAKER STREET</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>GB02JBYT76462699476010</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>MLTNPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>USMAN TARIQ</Nm>
+        <PstlAdr>
+          <PstCd>48084</PstCd>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 160 STREET 18 DHA PHASE 4</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK42HTHC1287188543124605</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>MEDICAL EXPENSES</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

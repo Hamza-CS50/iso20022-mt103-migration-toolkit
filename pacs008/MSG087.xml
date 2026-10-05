@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS141426681</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS141426681</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS141426681</TxId>
+        <UETR>8aa3a3db-3550-435c-8e49-8cec3ae22f56</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">2907.60</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-17</IntrBkSttlmDt>
+      <ChrgBr>CRED</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="USD">16.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>EMRTAEAAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>TARIQ MAHMOOD</Nm>
+        <PstlAdr>
+          <TwnNm>DUBAI</TwnNm>
+          <Ctry>AE</Ctry>
+          <AdrLine>OFFICE 185 AL WASL TOWER</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE104081298358460357489</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>EMRTAEAAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>LHRNPKLAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>AYESHA SIDDIQUI</Nm>
+        <PstlAdr>
+          <TwnNm>KARACHI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 204 STREET 20 DHA PHASE 6</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK16FAPD7254184618175085</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>SAVINGS</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

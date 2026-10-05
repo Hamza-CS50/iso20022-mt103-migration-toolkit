@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS197608212</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS197608212</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS197608212</TxId>
+        <UETR>43c46649-375e-4576-b7d7-b91779c118a4</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="SAR">5712.95</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-29</IntrBkSttlmDt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <IntrmyAgt1>
+        <FinInstnId>
+          <BICFI>TRNSDEFFXXX</BICFI>
+        </FinInstnId>
+      </IntrmyAgt1>
+      <Dbtr>
+        <Nm>SAJID HUSSAIN</Nm>
+        <PstlAdr>
+          <TwnNm>RIYADH</TwnNm>
+          <Ctry>SA</Ctry>
+          <AdrLine>BUILDING 147 OLAYA STREET</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>SA4031428209802579266888</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>JDDHSAJEXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>OMAR FAROOQ</Nm>
+        <PstlAdr>
+          <PstCd>55958</PstCd>
+          <TwnNm>ISLAMABAD</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>PLOT 179 BLOCK 5 CLIFTON</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK63XDBG7029780074380221</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RgltryRptg>
+        <Dtls>
+          <Inf>/BENEFRES/PK//</Inf>
+        </Dtls>
+      </RgltryRptg>
+      <RmtInf>
+        <Ustrd>FAMILY SUPPORT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

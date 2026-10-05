@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS215758850</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS215758850</InstrId>
+        <EndToEndId>ORD3004508</EndToEndId>
+        <TxId>FXS215758850</TxId>
+        <UETR>407aadb9-7464-49d3-b066-2fdc3fc70a83</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">239990.92</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-19</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">221151.63</InstdAmt>
+      <XchgRate>0.9215</XchgRate>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>NYCBUS33XXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>KRDBPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>TEXAS MACHINERY INC</Nm>
+        <PstlAdr>
+          <StrtNm>BROADWAY</StrtNm>
+          <BldgNb>142</BldgNb>
+          <PstCd>18882</PstCd>
+          <TwnNm>CHICAGO</TwnNm>
+          <CtrySubDvsn>IL</CtrySubDvsn>
+          <Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>523343412253</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>NYCBUS33XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>PSHRPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>FAISALABAD FABRICS PVT LTD</Nm>
+        <PstlAdr>
+          <StrtNm>MALL ROAD</StrtNm>
+          <BldgNb>201</BldgNb>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK25WVAJ7399999316110553</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR ELECTRONIC COMPONENTS</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-5343</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

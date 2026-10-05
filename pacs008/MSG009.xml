@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>PKS318112426</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INGA</SttlmMtd>
+        <InstgRmbrsmntAgt>
+          <FinInstnId>
+            <BICFI>TRNSDEFFXXX</BICFI>
+          </FinInstnId>
+        </InstgRmbrsmntAgt>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>PKS318112426</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>PKS318112426</TxId>
+        <UETR>3c2dcd6b-19ca-4774-86bf-e50f30d79e34</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="CNY">118676.32</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-09-23</IntrBkSttlmDt>
+      <InstdAmt Ccy="EUR">109182.21</InstdAmt>
+      <ChrgBr>SHAR</ChrgBr>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>SHNGCNSHXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>SIALKOT SPORTS GOODS LTD</Nm>
+        <PstlAdr>
+          <PstCd>42561</PstCd>
+          <TwnNm>KARACHI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>OFFICE 150 I.I. CHUNDRIGAR ROAD</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>PK42NPZB3164544502598808</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>SZHNCNBKXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>SHENZHEN COMPONENTS CO LTD</Nm>
+        <PstlAdr>
+          <PstCd>365145</PstCd>
+          <TwnNm>SHENZHEN</TwnNm>
+          <Ctry>CN</Ctry>
+          <AdrLine>NO 67 ZHONGSHAN ROAD</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <Othr>
+            <Id>5281831208</Id>
+          </Othr>
+        </Id>
+      </CdtrAcct>
+      <InstrForNxtAgt>
+        <InstrInf>/INS/SZHNCNBK</InstrInf>
+      </InstrForNxtAgt>
+      <InstrForNxtAgt>
+        <InstrInf>/ACC/CREDIT BENEFICIARY ACCOUNT</InstrInf>
+      </InstrForNxtAgt>
+      <RmtInf>
+        <Ustrd>PAYMENT FOR SURGICAL INSTRUMENTS</Ustrd>
+        <Strd>
+          <RfrdDocInf>
+            <Tp>
+              <CdOrPrtry>
+                <Cd>CINV</Cd>
+              </CdOrPrtry>
+            </Tp>
+            <Nb>INV-2026-2025</Nb>
+          </RfrdDocInf>
+        </Strd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

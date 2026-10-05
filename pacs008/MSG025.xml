@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>FXS164577980</MsgId>
+      <CreDtTm>2026-10-03T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INGA</SttlmMtd>
+        <InstgRmbrsmntAgt>
+          <FinInstnId>
+            <BICFI>TRNSDEFFXXX</BICFI>
+          </FinInstnId>
+        </InstgRmbrsmntAgt>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FXS164577980</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>FXS164577980</TxId>
+        <UETR>738954ab-ccb1-4744-8030-1fe7e12dbb6e</UETR>
+      </PmtId>
+      <PmtTpInf>
+        <SvcLvl>
+          <Prtry>SSTD</Prtry>
+        </SvcLvl>
+      </PmtTpInf>
+      <IntrBkSttlmAmt Ccy="GBP">2597.56</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-10-19</IntrBkSttlmDt>
+      <ChrgBr>DEBT</ChrgBr>
+      <ChrgsInf>
+        <Amt Ccy="GBP">18.00</Amt>
+        <Agt>
+          <FinInstnId>
+            <BICFI>ISBTPKKAXXX</BICFI>
+          </FinInstnId>
+        </Agt>
+      </ChrgsInf>
+      <InstgAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </InstgAgt>
+      <InstdAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </InstdAgt>
+      <Dbtr>
+        <Nm>RIZWAN ASLAM</Nm>
+        <PstlAdr>
+          <StrtNm>HIGH STREET</StrtNm>
+          <BldgNb>185</BldgNb>
+          <PstCd>M1 4BT</PstCd>
+          <TwnNm>LONDON</TwnNm>
+          <Ctry>GB</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>GB94RYEU22141919114894</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>LNDNGB2LXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>ISBTPKKAXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>IMRAN SHEIKH</Nm>
+        <PstlAdr>
+          <TwnNm>RAWALPINDI</TwnNm>
+          <Ctry>PK</Ctry>
+          <AdrLine>HOUSE 52 STREET 9 DHA PHASE 6</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>PK77KXNW6168455026785832</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>FAMILY SUPPORT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

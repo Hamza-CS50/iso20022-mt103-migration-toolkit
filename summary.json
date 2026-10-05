@@ -1,0 +1,282 @@
+{
+  "messages": 100,
+  "status": {
+    "FAILED_VALIDATION": 21,
+    "PASS_CLEAN": 42,
+    "PASS_WITH_WARNINGS": 31,
+    "REJECTED": 6
+  },
+  "stp_rate": 0.73,
+  "repair_rate": 0.27,
+  "avg_score": 81.74,
+  "rules": {
+    "BR_AMT_DECIMALS": 2,
+    "BR_E2E_NOTPROVIDED": 82,
+    "INF_UETR_GENERATED": 23,
+    "INF_CHRG_AGENT_INFERRED": 23,
+    "GAIN_STRUCT_ADDR": 180,
+    "INF_CDTRAGT_INFERRED": 63,
+    "GAIN_STRUCT_RMT": 47,
+    "INF_DBTRAGT_INFERRED": 41,
+    "BR_BIC_CTRY": 3,
+    "BR_FX_RATE_MISSING": 2,
+    "BR_ADDR_TWN_CTRY": 5,
+    "SX_DATE_INVALID": 2,
+    "BR_NON_IBAN_ACCT": 4,
+    "BR_IBAN_CHK": 6,
+    "BR_IBAN_ADDR_MISMATCH": 2,
+    "BR_CHRG_RULE": 2,
+    "DL_NAME_TRUNC_SUSPECT": 3,
+    "DL_RMT_TRUNC_SUSPECT": 3,
+    "BR_CCY_UNKNOWN": 2,
+    "BR_VALUE_DATE_WEEKEND": 2,
+    "XSD_001": 1,
+    "BR_BIC_FMT": 1,
+    "BR_IBAN_LEN": 2,
+    "SX_MISSING_FIELD": 2,
+    "SX_AMOUNT_FORMAT": 2,
+    "INF_CTRY_FROM_TOWN": 3
+  },
+  "categories": {
+    "BUSINESS": 110,
+    "INFERENCE": 153,
+    "ENRICHMENT": 227,
+    "ADDRESS": 5,
+    "SYNTAX": 6,
+    "DATA_LOSS": 6,
+    "SCHEMA": 1
+  },
+  "lineage_mix": {
+    "DIRECT": 1284,
+    "INFERRED": 517,
+    "CODE": 218,
+    "PARSED": 607,
+    "FREETEXT": 265
+  },
+  "lineage_by_group": {
+    "GrpHdr": {
+      "DIRECT": 101,
+      "INFERRED": 282
+    },
+    "PmtId": {
+      "DIRECT": 259,
+      "INFERRED": 105,
+      "CODE": 12
+    },
+    "IntrBkSttlmAmt": {
+      "DIRECT": 94
+    },
+    "IntrBkSttlmDt": {
+      "DIRECT": 94
+    },
+    "ChrgBr": {
+      "CODE": 94
+    },
+    "ChrgsInf": {
+      "DIRECT": 23,
+      "INFERRED": 23
+    },
+    "InstgAgt": {
+      "DIRECT": 94
+    },
+    "InstdAgt": {
+      "DIRECT": 94
+    },
+    "Dbtr": {
+      "DIRECT": 108,
+      "PARSED": 318,
+      "FREETEXT": 52,
+      "INFERRED": 2
+    },
+    "DbtrAcct": {
+      "DIRECT": 94
+    },
+    "DbtrAgt": {
+      "DIRECT": 53,
+      "INFERRED": 41
+    },
+    "CdtrAgt": {
+      "INFERRED": 63,
+      "DIRECT": 31
+    },
+    "Cdtr": {
+      "DIRECT": 104,
+      "PARSED": 289,
+      "FREETEXT": 61,
+      "INFERRED": 1
+    },
+    "CdtrAcct": {
+      "DIRECT": 94
+    },
+    "RmtInf": {
+      "FREETEXT": 94,
+      "CODE": 85
+    },
+    "IntrmyAgt1": {
+      "DIRECT": 11
+    },
+    "PmtTpInf": {
+      "CODE": 27
+    },
+    "InstrForNxtAgt": {
+      "FREETEXT": 40
+    },
+    "InstdAmt": {
+      "DIRECT": 16
+    },
+    "RgltryRptg": {
+      "FREETEXT": 18
+    },
+    "XchgRate": {
+      "DIRECT": 14
+    }
+  },
+  "deterministic_share": 0.5195434105845728,
+  "heuristic_share": 0.20996195088204772,
+  "inferred_share": 0.17883085437564855,
+  "freetext_share": 0.09166378415773088,
+  "defects_injected": 46,
+  "defects_detected": 46,
+  "recall_by_defect": {
+    "D01_IBAN_CHECKSUM": {
+      "injected": 4,
+      "detected": 4
+    },
+    "D02_IBAN_LENGTH": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D03_BIC_FORMAT": {
+      "injected": 4,
+      "detected": 4
+    },
+    "D06_ADDR_NO_COUNTRY": {
+      "injected": 5,
+      "detected": 5
+    },
+    "D07_ADDR_TOWN_ONLY": {
+      "injected": 3,
+      "detected": 3
+    },
+    "D08_NAME_AT_35": {
+      "injected": 3,
+      "detected": 3
+    },
+    "D09_REMIT_FULL": {
+      "injected": 3,
+      "detected": 3
+    },
+    "D10_JPY_DECIMALS": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D11_UNKNOWN_CCY": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D12_BAD_DATE": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D13_AMOUNT_NO_COMMA": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D15_CHARGE_RULE": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D16_FX_NO_RATE": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D17_WEEKEND_DATE": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D18_IBAN_COUNTRY_MISMATCH": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D19_MISSING_MANDATORY": {
+      "injected": 2,
+      "detected": 2
+    },
+    "D22_NON_IBAN_PK_ACCOUNT": {
+      "injected": 4,
+      "detected": 4
+    }
+  },
+  "clean_messages": 54,
+  "false_alarm_messages": [],
+  "address_by_country": {
+    "AE": {
+      "parties": 27,
+      "town_country": 25,
+      "street": 10
+    },
+    "CN": {
+      "parties": 10,
+      "town_country": 10,
+      "street": 6
+    },
+    "DE": {
+      "parties": 10,
+      "town_country": 10,
+      "street": 10
+    },
+    "GB": {
+      "parties": 14,
+      "town_country": 13,
+      "street": 7
+    },
+    "PK": {
+      "parties": 94,
+      "town_country": 93,
+      "street": 17
+    },
+    "SA": {
+      "parties": 5,
+      "town_country": 5,
+      "street": 2
+    },
+    "SG": {
+      "parties": 6,
+      "town_country": 6,
+      "street": 6
+    },
+    "US": {
+      "parties": 22,
+      "town_country": 21,
+      "street": 22
+    }
+  },
+  "status_by_scenario": {
+    "S1": {
+      "PASS_CLEAN": 18,
+      "FAILED_VALIDATION": 8,
+      "PASS_WITH_WARNINGS": 11,
+      "REJECTED": 3
+    },
+    "S2": {
+      "FAILED_VALIDATION": 6,
+      "PASS_CLEAN": 9,
+      "PASS_WITH_WARNINGS": 9,
+      "REJECTED": 1
+    },
+    "S3": {
+      "PASS_WITH_WARNINGS": 8,
+      "FAILED_VALIDATION": 5,
+      "PASS_CLEAN": 10,
+      "REJECTED": 2
+    },
+    "S4": {
+      "PASS_CLEAN": 5,
+      "PASS_WITH_WARNINGS": 3,
+      "FAILED_VALIDATION": 2
+    }
+  },
+  "address_parties": 188,
+  "address_town_country": 183,
+  "address_street": 80
+}
